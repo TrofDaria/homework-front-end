@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700i" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css">
+    <script src="../js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="page">
+<div class="page__container">
+    <header class="header" id="header">
+        <div class="header__logo"><h1 class="logo">Palo Alto</h1></div>
+        <div class="nav-icon">
+            <a href="javascript:void(0);" class="nav-link icon" onclick="changeNavVisibility()"></a>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__menu nav__menu list" id="hidden-nav">
+                <li class="header__menu__item outline"><a class="home nav-link" href="index.html">Home</a></li>
+                <li class="header__menu__item outline"><a class="about nav-link" href="">About</a></li>
+                <li class="header__menu__item outline"><a class="archive nav-link" href="">Archive</a></li>
+                <li class="header__menu__item inactive"><a class="contact nav-link">Contact</a></li>
+                <li class="header__menu__item header__search"><a href="" class="nav-link"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <article class="article">
+        <div class="article__container">
+            <section>
+                <h2 class="title contact-title">Contact us</h2>
+                <p class="article__text contact-text">
+                    Nam in maximus arcu, ac aliquam tellus. Donec vestibulum ipsum nunc, at placerat ante posuere non.
+                    Integer at dui a lacus suscipit elementum id non massa. Pellentesque habitant morbi tristique
+                    senectus
+                    et netus et malesuada fames ac turpis egestas. Nunc eu neque eros. Ut eu quam justo.
+                </p>
+            </section>
+            <form class="message-form form" method="post">
+                <div class="contact-info">
+                    <input type="text" name="username" placeholder="Your Name" tabindex="1"
+                           class="form-input username-input" required>
+                    <input type="email" name="email-address" placeholder="Email" tabindex="2"
+                           class="form-input email-input" required>
+                </div>
+                <input type="text" name="subject" placeholder="Subject" tabindex="3" class="form-input subject-input"
+                       required>
+                <textarea name="message" placeholder="Your Message" tabindex="4" class="form-input message-input"
+                          required></textarea>
+                <button name="submit" class="button send-msg-btn" tabindex="5">
+                    Send message
+                </button>
+            </form>
+        </div>
+    </article>
+</div>
+<footer class="footer">
+    <div class="footer__logo"><h2 class="logo">Palo Alto</h2></div>
+    <nav class="footer__nav">
+        <ul class="footer__menu nav__menu list">
+            <li class="footer__menu__item outline"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="footer__menu__item outline"><a class="nav-link" href="">About</a></li>
+            <li class="footer__menu__item outline"><a class="nav-link" href="">Archive</a></li>
+            <li class="footer__menu__item inactive"><a class="nav-link">Contact</a></li>
+            <li class="footer__menu__item search"><a class="nav-link" href=""></a></li>
+        </ul>
+    </nav>
+    <div class="footer__text-paragraph">
+        <p>Nunc placerat dolor at lectus hendrerit dignissim. Ut tortor sem, consectetur nec hendrerit ut, ullamcorper
+            ac odio. Donec viverra ligula at quam tincidunt imperdiet. Nulla mattis tincidunt auctor.</p>
+    </div>
+    <div class="footer__rights">
+        <h3 class="footer__rights-info">© 2015 - Palo Alto. All Rights Reserved. Designed & Developed by <span
+                class="footer__rights-info__link"> <a class="link" href="">PixelBuddha Team</a></span></h3>
+    </div>
+    <ul class="footer__social-links list">
+        <li class="social-links__item facebook"><a class="link" href=""></a></li>
+        <li class="social-links__item twitter"><a class="link" href=""></a></li>
+        <li class="social-links__item instagram"><a class="link" href=""></a></li>
+        <li class="social-links__item pinterest"><a class="link" href=""></a></li>
+    </ul>
+</footer>
+</body>
+</html>
