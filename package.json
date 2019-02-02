@@ -1,0 +1,29 @@
+{
+  "name": "fourth-homework",
+  "version": "1.0.0",
+  "description": "Третье домашнее задание по курсу front-end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrofDaria/homework-front-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrofDaria/homework-front-end/issues"
+  },
+  "homepage": "https://github.com/TrofDaria/homework-front-end#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-run-command": "0.0.9"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}

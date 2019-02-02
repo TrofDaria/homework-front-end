@@ -1,0 +1,30 @@
+{{#> layout/layout title="Contact"}}
+    <article class="article">
+        <div class="article__container">
+            <section>
+                <h2 class="title contact-title">Contact us</h2>
+                <p class="article__text contact-text">
+                    Nam in maximus arcu, ac aliquam tellus. Donec vestibulum ipsum nunc, at placerat ante posuere non.
+                    Integer at dui a lacus suscipit elementum id non massa. Pellentesque habitant morbi tristique
+                    senectus
+                    et netus et malesuada fames ac turpis egestas. Nunc eu neque eros. Ut eu quam justo.
+                </p>
+            </section>
+            <form class="message-form form" method="post">
+                <div class="contact-info">
+                    <input type="text" name="username" placeholder="Your Name" tabindex="1"
+                           class="form-input username-input" required>
+                    <input type="email" name="email-address" placeholder="Email" tabindex="2"
+                           class="form-input email-input" required>
+                </div>
+                <input type="text" name="subject" placeholder="Subject" tabindex="3" class="form-input subject-input"
+                       required>
+                <textarea name="message" placeholder="Your Message" tabindex="4" class="form-input message-input"
+                          required></textarea>
+                <button name="submit" class="button send-msg-btn" tabindex="5">
+                    Send message
+                </button>
+            </form>
+        </div>
+    </article>
+{{/layout/layout}}
